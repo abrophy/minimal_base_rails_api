@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "json", "~> 2.7.0"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.0"
 # Use postgresql as the database for Active Record
@@ -23,5 +24,3 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
-
-
