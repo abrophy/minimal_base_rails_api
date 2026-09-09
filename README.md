@@ -1,24 +1,10 @@
-# README
+# MINIMAL BASE RAILS API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description:
 
-Things you may want to cover:
+I've set up this repo as a starting base for a minimal rails api.
 
-* Ruby version
+## Versions
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby 3.4.10
+- Rails 7.2.3.2
