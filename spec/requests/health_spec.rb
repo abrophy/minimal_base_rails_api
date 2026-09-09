@@ -34,5 +34,15 @@ RSpec.describe "Health endpoint", type: :request do
 
       expect(json_response.keys).to match_array(expected_keys)
     end
+
+    it "returns a recent timestamp" do
+      get "/health"
+
+      json_response = JSON.parse(response.body)
+
+      timestamp = Time.parse(json_response["timestamp"])
+      expect(timestamp).to be > 5.seconds.ago
+      expect(timestamp).to be <= Time.current
+    end
   end
 end
