@@ -21,7 +21,7 @@ group :development, :test do
   gem "faker"
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
-  gem "rspec-rails", "~> 7.1.0"
+  gem "rspec-rails", "~> 8.1.0"
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
